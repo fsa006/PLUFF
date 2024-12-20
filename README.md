@@ -13,7 +13,7 @@ Assumptions from the Supply Chain team/Network designers based on Forecast cases
 -	Low case - Demand Forecast implies a demand where the company is NOT interested in purchasing a warehouse and is outsourcing the logistics services to another company.
 -	High case - Demand Forecast implies a demand where the company will need to purchase its own warehouse to manage annual demand and support long-term success.
 
-**Id.1	**
+**Id.1**
 Demand Forecast: Low Case.	
 CMO Location: Cork (IE).	
 Incoterms: EXW.	
@@ -36,19 +36,19 @@ Warehouse: Internal.
 					
 Finally, based on the network scenarios defined, the authors have decided the ideal models to provide the optimal solution to each.
 
-**SCENARIO 1. **
+**SCENARIO 1.**
 Model/Algorithm: ILP. Pyomo, and CBC solver.
 Variables: 3PL price and Annual number of trucks.
 Objective function: Maximise the number of trucks.
 Constraint: Budget.
 
-**SCENARIO 2. **
+**SCENARIO 2.**
 Model/Algorithm: ILP. Center of gravity.
 Variables: Warehouse location.
 Objective function: Minimize WH distance from the main hospitals.
 Constraint: Distance in Km.
 
-**SCENARIO 3. **
+**SCENARIO 3.**
 Model/Algorithm: Binary Integer Programming (BIP).
 Variables: CMO and WH location. 
 Objective function: MAximize Net Present Value (NPV).

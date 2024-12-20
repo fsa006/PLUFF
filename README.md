@@ -13,10 +13,26 @@ Assumptions from the Supply Chain team/Network designers based on Forecast cases
 -	Low case - Demand Forecast implies a demand where the company is NOT interested in purchasing a warehouse and is outsourcing the logistics services to another company.
 -	High case - Demand Forecast implies a demand where the company will need to purchase its own warehouse to manage annual demand and support long-term success.
 
-Id.	Demand Forecast	CMO Location	Incoterms	Warehouse	3PL 
-1	Low case	Cork (IE)	EXW	External	Distribution + Warehousing 
-2	High case	Cork (IE)	EXW	Internal	Distribution
-3	Low/High case	Cork (IE) or Leeds (UK)	CIP	Internal	Distribution
+**Id.1	**
+Demand Forecast: Low Case.	
+CMO Location: Cork (IE).	
+Incoterms: EXW.	
+Warehouse: External.	
+3PL: Distribution + Warehousing 
+
+**Id.2**
+Demand Forecast: High Case.	
+CMO Location: Cork (IE).	
+Incoterms: EXW.	
+Warehouse: Internal.	
+3PL: Distribution. 
+
+**Id.3**
+Demand Forecast: Low/High Case.	
+CMO Location: Cork (IE) or Leeds (UK).	
+Incoterms: CIP.
+Warehouse: Internal.	
+3PL: Distribution. 
 					
 Finally, based on the network scenarios defined, the authors have decided the ideal models to provide the optimal solution to each.
 
